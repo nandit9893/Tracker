@@ -1,0 +1,69 @@
+.attendance {
+  margin: 10px 10px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(243, 251, 237);
+  height: 80vh;
+}
+.attendance-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+}
+.attendance-header h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.attendance-header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.current-attendance {
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.current-attendance h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.current-attendance h3 {
+    font-size: 25px;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(143, 134, 122);
+}
+.current-attendance input {
+  width: 25%;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+.button-clock {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.button-clock button {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.button-clock button p {
+    font-size: 25px;
+    font-weight: 500;
+}

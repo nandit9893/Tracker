@@ -1,0 +1,102 @@
+.daily-update {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #f3fbed;
+}
+.daily-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.daily-header h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.daily-header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.today-task {
+  margin: 5px 0;
+}
+.today-task h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.today-task hr {
+  height: 2px;
+  margin-top: 5px;
+  width: 16%;
+  background-color: black;
+  border: none;
+}
+.task-inputs {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.task-inputs h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.task-inputs input,
+.task-inputs textarea {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+}
+.text-area textarea {
+  width: 100%;
+}
+.save-button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.save-button:hover {
+  background-color: #45a049;
+}
+.last-updates {
+  margin: 25px 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.last-updates h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.data-header,
+.update-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.data-header p,
+.update-row p {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.data-header p {
+    background: gray;
+    color: white;
+}
