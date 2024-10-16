@@ -20,6 +20,11 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/health', (req, res) => {
+    res.status(200).send('Server is up and running!');
+  });
+  
+
 app.get('/api/employee', (req, res) => {
   const employee = router.db.get('employee').value();
   res.json(employee);
