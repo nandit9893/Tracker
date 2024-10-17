@@ -11,7 +11,7 @@ const DashBoard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3001/employee"); 
+        const response = await axios.get("http://localhost:3000/employee"); 
         setEmployee(response.data);
       } catch (error) {
         console.error("Error fetching employee data:", error);

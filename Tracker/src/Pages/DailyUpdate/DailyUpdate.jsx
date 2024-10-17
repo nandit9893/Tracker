@@ -14,7 +14,7 @@ const DailyUpdate = () => {
   useEffect(() => {
     const fetchDailyUpdates = async () => {
       try {
-        const response = await axios.get("http://localhost:3001/dailyUpdates");
+        const response = await axios.get("http://localhost:3000/dailyUpdates");
         const sortedUpdates = response.data.sort((a, b) => new Date(b.dateofsubmission) - new Date(a.dateofsubmission));
         setDailyUpdates(sortedUpdates.slice(0, 5));
       } catch (error) {
